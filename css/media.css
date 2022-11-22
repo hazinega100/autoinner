@@ -1,0 +1,228 @@
+@media (max-width: 1024px) {
+    .header-title {
+        font-size: 60px;
+    }
+    .header-subtitle {
+        font-size: 25px;
+    }
+    .header-car {
+        width: 70%;
+    }
+    .main-text {
+        margin-right: 20px;
+    }
+    .main {
+        padding-top: 200px;
+    }
+    .main-tab:hover {
+        width: 450px;
+    }
+    .info-title {
+        margin-left: 10px;
+    }
+    .info-content-inner {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .header {
+        padding-bottom: 50px;
+    }
+    .nav {
+        padding: 20px 0 50px 0;
+    }
+    .logo-link {
+        width: 180px;
+    }
+    .header-phone {
+        font-size: 24px;
+    }
+    .header-title {
+        font-size: 40px;
+    }
+    .header-subtitle {
+        font-size: 18px;
+    }
+    .header-text {
+        font-size: 12px;
+    }
+    .header-car {
+        top: 270px;
+    }
+    .main-inner {
+        flex-wrap: wrap;
+    }
+    .main-text {
+        margin-right: 0;
+        width: 100%;
+    }
+    .main-tabs {
+        margin-top: 20px;
+        order: -1;
+    }
+    .info-content-inner {
+        padding-left: 10px;
+    }
+    .carousel {
+        padding-bottom: 0;
+    }
+    .contacts-inner {
+        display: block;
+    }
+}
+
+@media (max-width: 700px) {
+    .info-img {
+        display: none;
+    }
+    .contacts-right {
+        width: 100%;
+    }
+    .contacts-input {
+        width: 100%;
+        height: 50px;
+    }
+    .contacts-btn {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 590px) {
+    .header {
+        text-align: center;
+        height: 400px;
+    }
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+    }
+    .logo-link {
+        margin-right: 10px;
+    }
+    .header-phone {
+        font-size: 16px;
+    }
+    .header-title {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .header-subtitle {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .header-text {
+        font-size: 15px;
+    }
+    .btn {
+        width: 100%;
+        padding: 15px 30px;
+    }
+    .header-social {
+        margin-top: 45px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+    .header-car {
+        margin-top: 20px;
+        position: static;
+        width: 100%;
+        top: 20px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .main {
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+    .main-tab {
+        width: 100%;
+    }
+    .main-tab:hover {
+        width: 100%;
+    }
+    .info-content-inner {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .contacts-container {
+        padding: 0;
+    }
+    .contacts-left {
+        padding: 0 5px;
+    }
+    .contacts-right {
+        margin-top: 50px;
+    }
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-social {
+        width: 100%;
+    }
+}
+
+@media (max-width: 435px) {
+    .title {
+        font-size: 24px;
+    }
+    .header-title {
+        margin-bottom: 30px;
+    }
+    .header-subtitle {
+        padding-bottom: 25px;
+    }
+    .header-text {
+        padding-bottom: 45px;
+    }
+    .title::after {
+        width: 30px;
+        top: 10px;
+    }
+    .btn--decor::before {
+        width: 30px;
+        right: -5px;
+    }
+    .btn--decor::after {
+        margin-left: 35px;
+    }
+    .main-tab-text-title {
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .main-tab-text-descr {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .info {
+        padding-bottom: 50px;
+    }
+    .info-content-title {
+        font-size: 24px;
+    }
+    .info-content-subtitle {
+        font-size: 18px;
+    }
+    .info-content-text {
+        font-size: 16px;
+    }
+    .carousel .slick-dots button {
+        width: 30px;
+    }
+    .contacts-right {
+        padding: 30px 40px;
+    }
+    .contacts-input {
+        height: 40px;
+    }
+}
+
+@media (max-width: 321px) {
+    .header-phone {
+        margin-top: 20px;
+    }
+}
